@@ -14,7 +14,7 @@ UFT8Reader::~UFT8Reader() {
     cout << "destructing UTF8Reader object." << endl;
 }
 
-string GetNextLine( int numLines = 1 ){
+string UFT8Reader::GetNextLine( int numLines ){ //default for numLines = 1
     string lines =  "returning lines 1 - " + numLines;
     return lines; 
 }
