@@ -1,4 +1,7 @@
-#include <iFileReader.h>;
+#ifndef RAS_UTF8READER
+#define RAS_UTF8READER 
+
+#include <iFileReader.h>
 
 namespace RAS 
 {
@@ -14,3 +17,5 @@ public:
 }; // end of class
 
 } //end of namespace
+
+#endif // ifndef
