@@ -10,6 +10,7 @@ class iFileReader
 {
 public:
     iFileReader ( std::string fileName ): fileName( fileName ) {};
+    virtual std::string GetNextLine( int numLines = 1 ) = 0;
 
 private:
     const std::string fileName;
