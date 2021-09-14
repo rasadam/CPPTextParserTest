@@ -1,5 +1,5 @@
-#include <UTF8Reader.h>; 
-#include <iostream>;
+#include <UTF8Reader.h>
+#include <iostream>
 
 using namespace std; 
 
