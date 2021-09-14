@@ -15,7 +15,7 @@ UFT8Reader::~UFT8Reader() {
 }
 
 string UFT8Reader::GetNextLine( int numLines ){ //default for numLines = 1
-    string lines =  "returning lines 1 - " + numLines;
+    string lines =  "returning lines 1 - " + to_string( numLines );
     return lines; 
 }
 
