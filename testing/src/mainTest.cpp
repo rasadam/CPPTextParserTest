@@ -8,5 +8,6 @@ int main(int argc, char const *argv[])
 {
     UFT8Reader reader = UFT8Reader( "SomeFile.txt" );
     cout << reader.GetNextLine() << endl;
+    cout << reader.GetNextLine( 10 ) << endl;
     return 0;
 }
